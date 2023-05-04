@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+  
+  .apertado {
+    color: gray;
+  }
+  
+  .cabecalho {
+    background-color: rgb(12, 12, 13);
+  }
+  
+  .cabecalho h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10%;
+    padding-bottom: 2%;
+    padding-top: 0%;
+    margin-top: 7%;
+    font-size: larger;
+  }
+  
+  .cabecalho img {
+    text-align: center;
+    padding-bottom: 0%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+  
+  .cabecalho ul {
+    display: flex;
+    list-style: none;
+    padding-left: 3%;
+  }
+  
+  .cabecalho ul li {
+    padding-left: 1%;
+    margin-top: 2%;
+    display: inline;
+  }
+  
+  .cabecalho ul li a {
+    color: white;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 3%;
+  }
+  
+  .menu ul li {
+    display: inline;
+    margin-left: 4%;
+  }
+  
+  .menu ul li a {
+    color: black;
+    margin-top: 3%;
+  }
+  
+  .cardapio1 h1 {
+    text-align: center;
+    margin: 15%;
+    margin-bottom: 2%;
+  }
+  
+  .cardapio1 {
+    margin-bottom: 1%;
+  }
+  
+  .item1 {
+    width: 17.8%;
+    height: 100%;
+    margin-left: 17%;
+    margin-bottom: -10%;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+  }
+  
+  .item1 h2 {
+    text-align: center;
+    font-size: 100%;
+    margin-top: 10%;
+  }
+  
+  .item1 hr {
+    background-color: black;
+    margin-top: 10%;
+  }
+  
+  .item1 p {
+    margin-top: 10%;
+    text-align: center;
+  }
+  
+  .item1 h3 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+  }
+  
+  .cardapio1 span h1 {
+    margin-top: 40%;
+  }
+  
+  footer {
+    background-color: rgb(25, 25, 30);
+    text-align: center;
+    margin-top: 60%;
+    padding: 1%;
+    font-size: 90%;
+    color: white;
+  }
+  
