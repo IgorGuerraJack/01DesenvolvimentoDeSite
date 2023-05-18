@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+header{
+    background-color: black;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+a{
+    text-decoration: none;
+}
+.cabecalho{
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.btn {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 180px;
+    cursor: pointer;
+  }
+  .btn-one {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .btn-one span {
+    transition: all 0.3s;
+  }
+  .btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255,255,255,.5);
+    border-bottom-color: rgba(255,255,255,.5);
+    transform: scale(0.1, 1);
+  }
+  .btn-one:hover span {
+    letter-spacing: 1px;
+  }
+  .btn-one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+  }
+  .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-one:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+  }
+.menu{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.apertado{
+    color: gray;
+}
+title{
+    display: block;
+}
+main{
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 5% 8%;
+    padding: 2% 5%;
+    padding-bottom: 3%;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serifs;
+    line-height: 170%;
+}
+main h2{
+    color: black;
+    text-align: center;
+}
+.conteudo1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5%;
+}
+.conteudo1 img{
+    width: 30%;
+    height: 30%;
+}
+.conteudo2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    gap: 5%;
+    align-items: center;
+}
+.conteudo2 img{
+    width: 30%;
+    height: 30%;
+}
+.conteudo3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 5%;
+}
+.conteudo3 img{
+    width: 50%
+}
